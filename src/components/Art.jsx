@@ -26,7 +26,11 @@ const Art = () => {
             .to('.masked-img', {
                 scale: 1.3, maskPosition: 'center', maskSize: '400%', duration: 1, ease: 'power1.inOut',
             })
-            .to('#masked-content', {opacity: 1, duration: 1, ease: 'power1.inOut'})
+            .to('#masked-content', {
+                opacity: 1,
+                duration: 1,
+                ease: 'power1.inOut'
+            })
     })
 
     return (
